@@ -11,7 +11,7 @@ let mensaje = document.getElementById("mensaje");
 function callApi(estatus) {
 
     // Hacer una petición para un usuario con ID especifico
-    axios.get("http://18.223.135.139/iot-car-control/back-end/apis/setRegistro.php?valorEstatus=" + estatus)
+    axios.get("http://18.222.189.123/iot-car-control/back-end/apis/setRegistro.php?valorEstatus=" + estatus)
         .then(function (response) {
             // manejar respuesta exitosa
             console.log(response);
